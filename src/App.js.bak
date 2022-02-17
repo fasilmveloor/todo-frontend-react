@@ -44,7 +44,7 @@ class App extends Component {
       return;
     }
     axios
-      .post("/api/todo/", item)
+      .post("/api/todos/", item)
       .then((res) => this.refreshList());
   };
 
